@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      button {
+        color: white;
+        background-color: hsl(216, 79%, 47%);
+        border: 1px solid #1964d6;
+        border-radius: 30px;
+        box-shadow: 0px 8px 8px 0px rgb(214, 214, 214);
+        font-size: 15px;
+        margin: 20px auto;
+        padding: 16px 24px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        color: #1964d6;
+        background-color: white;
+        cursor: pointer;
+      }
+      .credit {
+        color: #4d4c48;
+        font-family: monospace;
+        font-size: 18px;
+        margin: 0;
+      }
+      h1 {
+        color: #1964d6;
+        font-size: 34px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        line-height: 48px;
+        margin: 0;
+      }
+      h2 {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 34px;
+        line-height: 48px;
+        font-weight: 400;
+        margin: 0;
+      }
+      h3 {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 19px;
+        font-weight: bold;
+      }
+      li {
+        font-family: monospace;
+        font-size: 18px;
+      }
+      p {
+        color: #4d4c48;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+      }
+      .saturday {
+        margin: 0px auto;
+        padding: 10px 0;
+        border-radius: 10px;
+        max-width: 400px;
+      }
+      .saturday:hover {
+        background-color: #fffbef;
+        transition: all 200ms ease-in-out;
+      }
+      .sunday {
+        margin: 0px auto;
+        padding: 10px 0;
+        border-radius: 10px;
+        max-width: 400px;
+      }
+      .sunday:hover {
+        background-color: #fffbef;
+        transition: all 200ms ease-in-out;
+      }
+
+      .tomorrow {
+        margin: 0px auto;
+        padding: 10px 0;
+        border-radius: 10px;
+        max-width: 400px;
+      }
+      .tomorrow:hover {
+        background-color: #fffbef;
+        transition: all 200ms ease-in-out;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🌤 <br />
+      Currently 21° in Tokyo
+    </h1>
+
+    <h2>13° / <strong>23°</strong></h2>
+
+    <ul>
+      <div class="tomorrow">
+        <li>
+          <h3>🌧Tomorrow</h3>
+          <p>10° / <strong>22°</strong></p>
+        </li>
+      </div>
+      <div class="saturday">
+        <li>
+          <h3>🌥Saturday</h3>
+          <p>15° / <strong>17°</strong></p>
+        </li>
+      </div>
+      <div class="sunday">
+        <li>
+          <h3>☀️Sunday</h3>
+          <p>25° / <strong>28°</strong></p>
+        </li>
+      </div>
+    </ul>
+
+    <button>Change City</button>
+    <p class="credit">Coded by Sarah Davis</p>
+  </body>
+</html>
